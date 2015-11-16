@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/a2"
+    > 
+      
+    <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="引导完毕，立即体验点击下方按钮"/> 
+    <Button
+        android:id="@+id/btn_close_guide"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="关闭引导"/> 
+      
+  
+</LinearLayout> 
